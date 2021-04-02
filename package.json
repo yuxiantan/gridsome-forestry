@@ -1,0 +1,16 @@
+{
+  "name": "gridsome-forestry",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/source-strapi": "^0.2.0",
+    "axios": "latest",
+    "gridsome": "^0.7.0",
+    "markdown-it": "^12.0.4"
+  }
+}
