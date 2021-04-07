@@ -7,9 +7,8 @@
           <div class="project-meta">
             <div class="project-author">
               <span class="label">Categories</span>
-              <span class="author-name">{{
-                $page.project.categories.title
-              }}</span>
+              <span class="author-name" v-for="category in $page.project.categories" :key="category.title">
+                {{category.title}}</span>
             </div>
             <div class="project-date">
               <span class="label">year</span>
