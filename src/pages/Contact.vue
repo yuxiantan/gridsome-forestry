@@ -44,7 +44,7 @@
         try {
           const { data } = await axios({
             method: 'POST',
-            url: 'http://localhost:1337/contacts',
+            url: 'http://117.50.104.170:1337/contacts',
             data: this.form
           })
           window.alert('发送成功')
